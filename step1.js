@@ -16,3 +16,6 @@ async function cat(path) {
 cat(argv[2])
 
 // TODO: why are the paths diff between step.js & one.txt
+  // argv[0] and [1] are special -- represents absolute paths of node and the file
+  // youre running
+  // everything else after reads as text (one.txt does not represent path)
